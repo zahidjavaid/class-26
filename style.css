@@ -1,0 +1,347 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+.headdiv {
+	font-size: 20px;
+	margin-left: 10px;
+}
+.headdiv:hover {
+	color: #639fff; 
+	cursor: pointer;
+}
+.btn1 {
+	border: 2px solid #81decc;
+	width: 12%;
+	height: 30px;
+	margin-right: 15px;
+	background-color: white;
+	color: #544ebf;
+	font-size: 18px;
+	text-align: left;
+	position: absolute;
+	right: 5px;
+	top: 9px;
+
+}
+
+.btn1:hover {
+	color: #2176ff;
+	cursor: pointer;
+}
+.btn2 {
+	border: 2px solid #81decc;
+	width: 12%;
+	height: 30px;
+	margin-right: 15px;
+	background-color: white;
+	color: #544ebf;
+	font-size: 18px;
+	text-align: left;
+
+}
+.li1 {
+	margin-right: 20px;
+	color: #2176ff;
+	font-size: 22px;
+}
+.li1:hover {
+	color: #639fff; 
+	cursor: pointer;
+}
+.li2 {
+	margin-right: 20px;
+	color: #2176ff;
+	font-size: 22px;
+}
+.li2:hover {
+	color: #639fff; 
+	cursor: pointer;
+}
+.li3 {
+	margin-right: 20px;
+	color: #2176ff;
+	font-size: 22px;
+}
+.li3:hover {
+	color: #639fff; 
+	cursor: pointer;
+}
+.li4 {
+	margin-right: 20px;
+	color: #2176ff;
+	font-size: 22px;
+}
+.li4:hover {
+	color: #639fff; 
+	cursor: pointer;
+}
+.li5 {
+	margin-right: 20px;
+	color: #2176ff;
+	font-size: 22px;
+}
+.li5:hover {
+	color: #639fff; 
+	cursor: pointer;
+}
+.li6 {
+	margin-right: 20px;
+	color: #2176ff;
+	font-size: 22px;
+}
+.li6:hover {
+	color: #639fff; 
+	cursor: pointer;
+}
+.container {
+	display: flex;
+	list-style: none;	
+}
+
+
+div {
+	justify-content: space-between;
+
+}
+
+article {
+	width: 100%;
+	margin-top: 150px;
+	display: grid;
+	grid-template-columns: repeat(3, 330px);
+	grid-template-rows: repeat(5, 100px);
+	align-items: center;
+	justify-content: center;
+	grid-column-gap: 30px;
+	grid-row-gap: 110px;
+}
+
+
+article div:first-child {
+	background-color: #ff6d56;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+	
+}
+article div:first-child:hover {
+	background-color: black;
+	cursor: pointer;
+}
+.para1 {
+	margin-top: 0px;
+	font-size: 18px;
+	color: white;
+}
+
+article div:nth-child(2) {
+	background-color: #2176ff;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(2):hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+
+article div:nth-child(3) {
+	background-color: #fbc227;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(3):hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+article div:nth-child(4) {
+	background-color: #3ec446;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(4):hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+article div:nth-child(5) {
+	background-color: #ea3a3a;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(5):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(6) {
+	background-color: #42cdb2;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(6):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(7) {
+	background-color: #2176ff;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(7):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(8) {
+	background-color: #ff6d56;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(8):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(9) {
+	background-color: #fa99b4;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(9):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(10) {
+	background-color: #ea3a3a;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(10):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(11) {
+	background-color: #42cdb2;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(11):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(12) {
+	background-color: #3ec446;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(12):hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+article div:nth-child(13) {
+	background-color: #42cdb2;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(13):hover {
+	background-color: black;
+	cursor: pointer;
+}
+article div:nth-child(14) {
+	background-color: #2176ff;
+	height: 150px;
+	color: white;
+	font-size: 50px;
+	padding: 16px;
+}
+article div:nth-child(14):hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+
+footer {
+	margin-top: 70px;
+	background-color: black;
+	height: 150px;
+	color: white;
+	
+	
+}
+
+footer > div:nth-child(1) {
+	font-size: 15px;
+	display: grid;
+	grid-template-columns: repeat(5, 160px);
+	grid-template-rows: repeat(1, 80px);
+	grid-column-gap: 40px;
+	align-items: center;
+	justify-content: center;
+	/*justify-content: space-around;*/
+}
+footer > div:nth-child(1):hover {
+	color: #fde093;
+	cursor: pointer;
+}
+
+footer > div:nth-child(2) {
+	font-size: 15px;
+	display: grid;
+	grid-template-columns: repeat(6, 165px);
+	/*grid-template-rows: repeat(1, 50px);*/
+	align-items: center;
+	justify-content: center;
+	grid-column-gap: 0px;
+}
+footer > div:nth-child(2):hover {
+	color: #fde093;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+
+}
